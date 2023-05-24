@@ -3,7 +3,7 @@ This is a program  answer two questions one about the similarity scores of cat,m
 
 
 # Installation 
-**Before doing any of the following steps make sure that you have python installed on your pc*** 
+**Before doing any of the following steps make sure that you have python installed on your pc**
 
 ### 1. Open your command prompt and follow the instructions below 
 

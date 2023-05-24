@@ -19,7 +19,7 @@ $ python -m spacy download en_core_web_md
 ### 5. Install the required dependencies using:
 $ pip install -r requirements.txt
 
-**If you would rather fetch the docker image here are the instructions:**
+## If you would rather fetch the docker image here are the instructions:
 ### First of all make sure that you have docker running on your pc by running the command docker
 $ run hello-world
 ### Open you command prompt :

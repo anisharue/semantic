@@ -20,8 +20,8 @@ $ python -m spacy download en_core_web_md
 $ pip install -r requirements.txt
 
 **If you would rather fetch the docker image here are the instructions:**
-*First of all make sure that you have docker running on your pc by running the command **docker run hello-world***
-
+### First of all make sure that you have docker running on your pc by running the command docker
+$ run hello-world
 ### Open you command prompt :
 
 ### 1. download the image by using:

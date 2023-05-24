@@ -1,24 +1,36 @@
 # Semantic
-This is a program 
-
-This repository contains a Python script that demonstrates semantic similarity analysis using the spaCy library. The script compares the similarity scores between different tokens using the pre-trained word vectors provided by the 'en_core_web_md' model. Semantic similarity analysis is a technique used to measure the similarity between words or phrases based on their meaning or context. It is commonly used in natural language processing tasks such as information retrieval, question answering, and recommendation systems.
-
-
-
-
+This is a program  answer two questions one about the similarity scores of cat,monkey and banana as well as my own example which uses the examples of (skirt,blouse and table).The second question answers the difference bween 'en_core_web_md' and 'en_core_web_sm' models.
 
 
 # Installation 
 **Before doing any of the following steps make sure that you have python installed on your pc*** 
 
-### 1. Clone the repository using:
-$ git clone https://github.com/your-username/semantic-similarity.git
+### 1. Open your command prompt and follow the instructions below 
 
-### 2. Install the required dependencies using:
+### 2. Clone the repository using:
+$ git clone https://github.com/anisharue/semantic.git
+
+### 3.You need to install spacy using 
+$ pip install spacey
+
+### 4.Download the spaCy model
+$ python -m spacy download en_core_web_md
+
+### 5. Install the required dependencies using:
 $ pip install -r requirements.txt
 
-### 3.Download the spaCy model
-$ python -m spacy download en_core_web_md
+**If you would rather fetch the docker image here are the instructions:**
+*First of all make sure that you have docker running on your pc by running the command **docker run hello-world***
+
+### Open you command prompt :
+
+### 1. download the image by using:
+$ docker pull anisharue/semantic
+
+### 2. To run the program you use:
+$ docker run anisharue/semantic
+
+
 
 
 # Usage 
